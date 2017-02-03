@@ -1,8 +1,8 @@
 <?php
 
 /**
- * @file Class to create a Google Analytics email tracking pixel.
- *       It will be used to integrate our html email generator "Fabricador"
+ * @file A class to generate Google Analytics tracking pixels for html email and "view email in the browser" pages.
+ *       This class can be used in html static generators or programs to generate tracking pixels.
  */
 
 class EmailTrack {
