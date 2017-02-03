@@ -25,3 +25,5 @@ public $supporterID = '{user_data~cp_supporter_id}';
 ```
 
 **Important:** Google forbids using any data that allows them to identify a user, including email, phone number or name. Please check their policies for more information.
+
+**Note:** At the moment it’s not possible to use the field `Supporter ID`. As a temporary hack I’ve made a copy named `cp_supporter_id`. Unlike `Supporter ID`, `cp_supporter_id` is not automatically populated in new records. I believe this issue will be fixed in the next 3 months.
