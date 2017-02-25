@@ -4,9 +4,13 @@
 
 This class can be used in html static generators or programs to generate tracking pixels.
 
+It can also be used to send information directly from php to Google Analytics, for example when a transactional email is sent to a user.
+
 ### How to use
 
 The file `demo.php` contains some examples on how to use the class to generate pixels.
+
+The file `demo2.php` contains an example where the request is sent from a php script.
 
 Inside the `./snippets/` folder there's also example code.
 
